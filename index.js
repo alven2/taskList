@@ -1,3 +1,3 @@
 const tareas = []
 
-tareas.push('hola')
+tareas.pop('hola')
