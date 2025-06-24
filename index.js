@@ -1,2 +1,1 @@
-const tareas = ['hola']
-tareas.pop('hola')
+console.log('hola')
