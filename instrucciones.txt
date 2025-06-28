@@ -1,0 +1,13 @@
+ahora vamos con la lista de tareas, 1 2 3, primero se crea una funcion, ya que se lo daremos al boton para que agregue las tareas, osea usaremos onclick en pocas palabras.
+
+dentro de la funcion se crea 2 constantes, una el input del texto, y seguido otro de el value del primer input, osea le succionaremos el valor para crear esa nueva constante.
+
+seguido se crea un if, donde se verificara si el constante valor(value) no es vacio, luego se le pone la accion deeee, okay antes de la accion necesitamos rescatar el elemento del dom que este vacio y que contenga las tareas que vamos a crear, luego de ese constante se crea otro pero del elemento que vamos a crear, que este caso seria un document.createElement, y creamos un li, ya que el contenedor que use es un UL.
+    ya este ultimo constante le asignamos aparte un textcontent y el valor al constante de valor(value) antes ya creado.
+    
+    seguimos en if para crearle al constante li un onclick para que cuando haga click se haga una funcion para que haga cross en el texto, ya dentro de esa funcion se crea un if, donde verificara si el li.style.textDecoration es igual estricto a line-through, ya en la accion le ponemos lo contrario que seria none, y en el else le ponemos que ponga line through nuevamente.
+    
+    seguimos para ponerle un boton de borrar al querer eliminar la tarea, ya con eso creamos una constante donde se crea un button createElement, ya una vez creado la seleccionamos y le ponemos un onclick, y una funcion, y le diremos a la lista osea el papa para que elimine su hijo, con removechild al li.
+    
+    
+    ya por ultimo desplegar todo a la vista, desplegamos las tareas con appendchild, a igual que al boton de borrar, y ultimo poner el valor de input a vacio.
