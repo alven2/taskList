@@ -28,3 +28,4 @@ function addTask() {
     $taskInput.value = '';
     li.appendChild(erase);
     }
+}
