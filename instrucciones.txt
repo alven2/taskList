@@ -1,6 +1,6 @@
 ahora vamos con la lista de tareas, 1 2 3, primero se crea una funcion, ya que se lo daremos al boton para que agregue las tareas, osea usaremos onclick en pocas palabras.
 
-dentro de la funcion se crea 2 constantes, una el input del texto, y seguido otro de el value del primer input, osea le succionaremos el valor para crear esa nueva constante.
+dentro de la funcion se crea 2 constantes, una el input del texto, y seguido otro de el value del primer input, osea le succionaremos el valor para crear esa nueva constante, ese valor tiene que tener strim() para evitar vacios.
 
 seguido se crea un if, donde se verificara si el constante valor(value) no es vacio, luego se le pone la accion deeee, okay antes de la accion necesitamos rescatar el elemento del dom que este vacio y que contenga las tareas que vamos a crear, luego de ese constante se crea otro pero del elemento que vamos a crear, que este caso seria un document.createElement, y creamos un li, ya que el contenedor que use es un UL.
     ya este ultimo constante le asignamos aparte un textcontent y el valor al constante de valor(value) antes ya creado.
